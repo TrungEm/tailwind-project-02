@@ -1,0 +1,11 @@
+@layer components {
+    .btn-up {
+        @apply py-3 px-6 
+        border-[1px] border-solid border-[var(--primary-color)]
+        rounded-md
+        font-semibold
+        text-base
+        leading-[1.5]
+        text-[var(--primary-color)];
+    }
+}
