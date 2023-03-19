@@ -1,0 +1,14 @@
+@layer components {
+    .icon-courses {
+        @apply before:content-['']
+        before:inline-block 
+        before:absolute
+        before:left-[-16px] 
+        before:top-[50%] 
+        before:translate-y-[-50%] 
+        before:w-[6px] 
+        before:h-[6px] 
+        before:bg-[var(--primary-color)] 
+        before:rounded-[50%];
+    }
+}
