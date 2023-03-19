@@ -26,4 +26,16 @@
         after:translate-x-[-50%]
         after:translate-y-[-50%];
     }
+
+    .line-testi {
+        @apply before:content-['']
+        before:absolute
+        before:top-[50%]
+        before:translate-y-[-50%]
+        before:left-[-13px]
+        before:inline-block
+        before:w-2
+        before:h-[2px]
+        before:bg-[#070707];
+    }
 }
