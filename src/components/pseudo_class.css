@@ -11,4 +11,19 @@
         before:bg-[var(--primary-color)] 
         before:rounded-[50%];
     }
+
+    .icon-play {
+        @apply after:content-['']
+        after:absolute
+        after:top-2/4
+        after:left-2/4
+        after:inline-block
+        after:border-l-[14px]
+        after:border-y-[9px]
+        after:border-solid
+        after:border-y-transparent
+        after:border-l-[var(--primary-color)]
+        after:translate-x-[-50%]
+        after:translate-y-[-50%];
+    }
 }
